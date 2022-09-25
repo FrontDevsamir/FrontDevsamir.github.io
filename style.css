@@ -1,0 +1,26 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    min-height: 100vh;
+}
+
+
+body {
+    display: flex;
+    background-color: #222;
+}
+
+
+h1 {
+    font-family: 'Cascadia Code PL';
+    font-size: 5rem;
+    color: #ccc;
+    margin: auto;
+    text-decoration: overline;
+}
+
