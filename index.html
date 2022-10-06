@@ -5,14 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/png" href="./img/logo.png">
-    <title>Pagina de prueba</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/logo2.png">
+    <title>Desafios y Ejercicios Frontend</title>
 </head>
 <body>
     
 
-    <h1>Pagina en desarrollo</h1>
+    <header class="header">
+        <nav class="nav">
+            <input type="checkbox" id="icon_menu" class="check">
+            <div class="logo">
+                <div class="box"></div>
+            </div>
 
+            <label for="icon_menu">
+                <div class="icon_menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </label>
+
+            <ul class="nav__menu">
+                <li class="nav__menu--item"><a>DESAFIOS</a></li>
+                <li class="nav__menu--item"><a href="./pages/animaciones.html">ANIMACIONES</a></li>
+                <li class="nav__menu--item"><a href="./pages/animaciones.html">3D</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <h1 class="hero__title">Desafios Frontend</h1>
+            <p class="hero__paragraph">
+                Hola mi nombre es <span>SAMIR</span> actualmente me encuentro aprendiendo desarrollo Frontend , por este medio estare subiendo todos los desafios front que realize de un sito web muy conocido FrontMentor.
+            </p>
+        </section>
+    </header>
+
+
+    <main class="main">
+        <section class="container" id="container">
+            <h2 class="container__title">Desafios terminados</h2>
+            <p class="container__paragraph">
+                A continuacion se mostraran los desafios encontraras dos botones uno que te llevara al repositorio del desafio y otro al deploy para que observes el resultado.
+            </p>
+            
+            
+
+        </section>
+    </main>
+
+
+    <script src="scripts/index.js"></script>
 
 </body>
 </html>
