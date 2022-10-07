@@ -82,6 +82,24 @@ const datos = {
         'repo': 'https://github.com/FrontDevsamir/card-component-main',
         'deploy': 'https://frontdevsamir.github.io/card-component-main/',
         'tecnologias': ['fa-html5', 'fa-css3-alt']
+    },
+    'clipboard': {
+        'nombre': 'Clipboard Landing',
+        'nivel': 'Junior',
+        'path-img': '../img/clipboard.jpg',
+        'alt': 'Imagen de landing page clipboard',
+        'repo': 'https://github.com/FrontDevsamir/clipboard-landing-page',
+        'deploy': 'https://frontdevsamir.github.io/clipboard-landing-page/',
+        'tecnologias': ['fa-html5', 'fa-css3-alt']
+    },
+    'chat-app': {
+        'nombre': 'Ilustracion app',
+        'nivel': 'Intermedio',
+        'path-img': '../img/app-chat.jpg',
+        'alt': 'Imagend de card main',
+        'repo': 'https://github.com/FrontDevsamir/chat-app-illustration',
+        'deploy': 'https://frontdevsamir.github.io/chat-app-illustration/',
+        'tecnologias': ['fa-html5', 'fa-css3-alt']
     }
 
 }
@@ -135,7 +153,7 @@ for (let clave in datos) {
     } else if (datos[clave]['nivel'] == 'Junior') {
         nivel.classList.add('junior')
     } else {
-        nivel.classList.add('Intermedio')
+        nivel.classList.add('intermedio')
     }
 
     div_social.appendChild(nivel)

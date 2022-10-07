@@ -81,6 +81,10 @@ body::-webkit-scrollbar-thumb
 }
 
 
+
+
+
+
 /* >> ESTILOS PARA EL HEADER */
 .header 
 {
@@ -88,9 +92,7 @@ body::-webkit-scrollbar-thumb
 }
 
 
-
-
-
+/* Logo animado */
 .box {
     width: 40px;
     height: 40px;
@@ -105,7 +107,6 @@ body::-webkit-scrollbar-thumb
 }
 
 
-
 @keyframes anim {
     to {
         transform: rotate(360deg) scale(1.05);
@@ -114,7 +115,7 @@ body::-webkit-scrollbar-thumb
 
 
 
-
+/* Barra de menu */
 
 .nav
 {
@@ -266,6 +267,7 @@ body::-webkit-scrollbar-thumb
 
 
 
+
 /* >> ESTILOS PARA LA SECCION DE DESAFIOS */
 .container
 {
@@ -364,6 +366,8 @@ body::-webkit-scrollbar-thumb
 .social--info--btns > a 
 {
     font-size: .8rem;
+    box-shadow: -5px 3px 5px 0 rgb(0 0 255 / 15%),
+                -10px -3px 15px rgb(0 0 255 / 15%) inset ;
     transition: background-color .5s, color .5s;
 }
 
@@ -373,19 +377,19 @@ body::-webkit-scrollbar-thumb
     padding-left: 3px;
 }
 
-.social--info--btns > a:hover:nth-child(1)
+.social--info--btns > a:nth-child(1)
 {
     background-color: purple;
     color: var(--blanco-gris);
 }
 
-.social--info--btns > a:hover:nth-child(2)
+.social--info--btns > a:nth-child(2)
 {
     background-color: steelblue;
     color: var(--blanco-gris);
 }
 
-.social--info--btns > a:hover .icon-deploy
+.icon-deploy
 {
     color: yellow;
 }
@@ -399,6 +403,11 @@ body::-webkit-scrollbar-thumb
 .junior 
 {
     color: #0383A0;
+}
+
+.intermedio
+{
+    color: var(--azul-oscuro);
 }
 
 .social--icon
@@ -450,6 +459,19 @@ body::-webkit-scrollbar-thumb
 {
     color: orange;
 }
+
+
+
+
+
+/* ... ESTILOS PARA EL FOOTER */
+.footer 
+{
+    height: 300px;
+    margin-top: 7em;
+    background-color: var(--azul-oscuro);
+}
+
 
 
 
@@ -526,9 +548,44 @@ body::-webkit-scrollbar-thumb
 
 
     .icon-tecno 
-{
-    font-size: 1.8rem;
-}
+    {
+        font-size: 1.8rem;
+    }
+
+    .social--info--btns > a:nth-child(1)
+    {
+        background-color: initial;
+        color: initial;
+    }
+
+    .social--info--btns > a:nth-child(2)
+    {
+        background-color: initial;
+        color: initial;
+    }
+
+    .social--info--btns > a:hover:nth-child(1)
+    {
+        background-color: purple;
+        color: var(--blanco-gris);
+    }
+
+    .social--info--btns > a:hover:nth-child(2)
+    {
+        background-color: steelblue;
+        color: var(--blanco-gris);
+    }
+
+
+    .icon-deploy
+    {
+        color: initial;
+    }
+
+    .social--info--btns > a:hover .icon-deploy
+    {
+        color: yellow;
+    }
 }
 
 
