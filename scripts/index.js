@@ -100,8 +100,16 @@ const datos = {
         'repo': 'https://github.com/FrontDevsamir/chat-app-illustration',
         'deploy': 'https://frontdevsamir.github.io/chat-app-illustration/',
         'tecnologias': ['fa-html5', 'fa-css3-alt']
+    },
+    'profile-card': {
+        'nombre': 'Tarjeta de perfil',
+        'nivel': 'Junior',
+        'path-img': '../img/profile.jpg',
+        'alt': 'Imagen de profile de card',
+        'repo': 'https://github.com/FrontDevsamir/profile-card',
+        'deploy': 'https://frontdevsamir.github.io/profile-card/',
+        'tecnologias': ['fa-html5', 'fa-css3-alt']
     }
-
 }
 
 
