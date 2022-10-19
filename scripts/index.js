@@ -109,6 +109,15 @@ const datos = {
         'repo': 'https://github.com/FrontDevsamir/profile-card',
         'deploy': 'https://frontdevsamir.github.io/profile-card/',
         'tecnologias': ['fa-html5', 'fa-css3-alt']
+    },
+    'grid-prices': {
+        'nombre': 'Grid Precio',
+        'nivel': 'Junior',
+        'path-img': '../img/grid-prices.jpg',
+        'alt': 'Imagen de grid de precio',
+        'repo': 'https://github.com/FrontDevsamir/price-grid',
+        'deploy': 'https://frontdevsamir.github.io/price-grid/',
+        'tecnologias': ['fa-html5', 'fa-css3-alt']
     }
 }
 
